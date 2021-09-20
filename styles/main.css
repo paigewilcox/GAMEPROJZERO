@@ -1,0 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#diepic {
+    width: 100px;
+}
