@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="../GAproj-gametime/styles/main.css"
-        <script src="scripts/app.js"></script>
+        <link rel="stylesheet" type="text/css" href="../GAproj-gametime/styles/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+
+
+        <title>ToH GameTime!</title>
 
         <nav>
-            <h1>Tortoise OR Hare</h1>
+            <h1>Tortoise or Hare</h1>
         </nav>
 
     </head>
-
 
 
     <body>
 
         <p>CLICK THE DIE TO BEGIN</p>
 
-        <div class="start-finish">
-            <button id="die"> <img id="diepic" src="https://static6.depositphotos.com/1036672/542/i/950/depositphotos_5427600-stock-photo-red-dice.jpg" alt="roll"><br>Take A Chance!</button>
+        <div class="die-done">
+            <div id="help">
+                <button class="dieroll"> <img id="diepic" src="https://static6.depositphotos.com/1036672/542/i/950/depositphotos_5427600-stock-photo-red-dice.jpg" alt="roll"><br>Take A Chance!</button>
+                <p id="dieResult"></p>
+            </div>
 
             <button id="done">DONE</button>
         </div>
 
+        <div class="strt-fn">
+            <div>
+            <p id="start">START!</p>
+            </div>
+            <div>
+            <p>FINISH!</p>
+            </div>
+        </div> 
         <div>
-            <button id="move">MOVE</button>
-
+            <div id = "finish">
+                <img class ="imturtle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYADL2Jsbm6Hi_rzFf-4J8wTxT-o1gRtLjcw&usqp=CAU">
+            </div>
         </div>
 
-
-
-
-
-
+        <script src="scripts/toh.js"></script>
     </body>
-
-
-
-
-
 
 </html>

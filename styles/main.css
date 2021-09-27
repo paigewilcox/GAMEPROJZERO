@@ -8,8 +8,75 @@ nav {
     font-weight: bold;
 }
 
+body {
+    background: url("https://media.istockphoto.com/vectors/empty-road-valley-urban-background-vector-id1216009620?k=20&m=1216009620&s=170667a&w=0&h=tXj7TX10hV0JWYGi8vl8PY4Gy2jy-WwR6Gt6b4rHyQY=");
+    background-size: cover;
+
+}
+
+p {
+    font-size: 12px;
+}
+
+
+.die-done {
+    display: flex; 
+}
+
+#help {
+    display: flex;
+}
+
+/* p.die {
+    display: none;
+} */
 
 
 #diepic {
     width: 100px;
+}
+
+.elem {
+    width: 80px;
+    height: 80px;
+    /* background-color: aqua; */
+    display: inline-block;
+    justify-content: space-evenly;
+    border: 20px;
+    border-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+#done {
+    margin-left: 80px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid black;
+    height: 30px;
+}
+
+.strt-fn {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#finish {
+    display: flex;
+    /* justify-content: space-evenly; */
+    border-color: black;
+    height: 50px;
+    background-color: red;
+}
+
+.elem {
+    border: 5px black;
+}
+
+.move {
+    
 }
